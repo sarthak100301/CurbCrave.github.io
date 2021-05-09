@@ -1,0 +1,172 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:40px;
+  font-weight:400;
+  scroll-behavior: smooth;
+  font-weight: bold;
+  font-family: 'Waiting for the Sunrise', cursive; 
+
+}
+
+.pimg0, .pimg1, .pimg2, .pimg3{
+  position:relative;
+
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.pimg0{
+  min-height:400px;
+  background-color: Orchid;
+} 
+
+.pimg1{
+ background-color: Orchid;
+  min-height:410px;
+
+}
+
+.pimg2{
+
+  min-height:440px;
+}
+
+.pimg3{
+	 background-color: Orchid;
+  min-height:660px;
+}
+.pimg4{
+	
+  min-height:440px;
+}
+.section{
+  padding:55px 100px;
+  margin: -5px;
+ 
+}
+
+.separator{
+  padding: 5px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:rgba(17,17,17,1);
+  color:#fff;
+}
+
+.contact{
+  background-color:#666;
+}
+
+.ptext1{
+  position:absolute;
+  top:40%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:32px;
+  letter-spacing:8px;
+}
+
+.text1{
+  position:absolute;
+  top:50%;
+  width:100%;
+  font-size:26px;
+  text-align:center;
+  color:#fff;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext1 .border1{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+
+
+@media(max-width:568px){
+  .pimg0, .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+
+
+section #link1 {
+  margin-top: 0;
+  line-height: 30px;
+  text-decoration: none;
+  padding: 0px 7px;
+  display: inline-block;
+  letter-spacing:1px;
+  color: #191919;
+  font-size: 23px;
+}
+
+section #link1:after { 
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #2ecc71;
+  transition: width .3s;
+}
+section #link1:hover:after {
+  width: 100%;
+  transition: width .3s;
+}
+
+
+section #link2 {
+  margin-top: 0;
+  line-height: 30px;
+  text-decoration: none;
+  padding: 0px 7px;
+  display: inline-block;
+  letter-spacing:1px;
+  color: #fff;
+  font-size: 23px;
+}
+
+
+section #link2:after { 
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #2ecc71;
+  transition: width .3s;
+}
+section #link2:hover:after {
+  width: 100%;
+  transition: width .3s;
+}
+
+

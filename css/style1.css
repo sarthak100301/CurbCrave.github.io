@@ -1,0 +1,93 @@
+body, html{
+  background-color: #eed4fb;
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  font-weight: bold;
+  margin:0;
+}
+
+.dci{
+  position: absolute;
+  width: 290px;
+  height: 120px;
+  background: Orchid;
+  top: 79%;
+  left: 28%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+.box {
+  width: 290px;
+  padding: 40px;
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  background: Orchid;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.box h1 {
+  color: black;
+}
+
+.box input[type = "number"], .box input[type = "number"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  border: 2px solid black;
+  width: 115px;
+  padding: 10px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.imgs{
+  position: absolute;
+  padding-top: 150px;
+  padding-left: 340px;
+}
+.box input[type = "number"]:focus, .box input[type = "number"]:focus {
+  width: 200px;
+}
+.box button {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 13px 27px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-weight: 600;
+}
+.box button:hover{
+  background: black;
+  color: #fff;
+}
+
+.box input[type= "number"]::-webkit-inner-spin-button,
+.box input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+
+
+
+

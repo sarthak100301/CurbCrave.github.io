@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BMI Calculator</title>
+  <link rel="shortcut icon" href="images/logo2.png">
+  <link rel="stylesheet" href="css/style1.css">
+  	<link rel="stylesheet" type="text/css" href="Nutrition.css">
+</head>
+<body>
+  <script src="js/bmi.js"></script>
+<div class="topnav">
+	  <div id="logo"> 
+<img src="images/logo2.png" width="64px"  alt="logo"/></div>
+  <a class="active" id="link1" href="bmi.html">BMI Calculator</a>
+  <a href="cc.html">CurbCrave</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="index.html">Home</a>
+</div>
+
+  <div class="imgs">
+    <img src="images/bmi1.png">  
+  </div>
+    
+    
+
+  <form class="box">
+    <h2>BMI Calculator</h2>
+	<p>*1 foot = 30.48cm</p>
+    <input id="weight" type="number" placeholder="  weight in kg" name="" min="0" max="1000">
+    <input id="height" type="number" placeholder="height in cm" name="" min="0" max="300">
+    <button onclick="bmi()" type="button">Calculate</button>
+    <h6 id="result">Your BMI is</h6>
+  </form>
+
+  <div class="dci">
+    <p id="dcl">Your daily calorie intake should be: </p>
+    <p id="dclr"></p>  
+  </div>
+		 <script type="text/javascript" src="js/mainScript.js"></script>
+
+
+</html>
